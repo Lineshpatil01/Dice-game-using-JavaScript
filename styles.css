@@ -1,0 +1,80 @@
+body {
+    background-color:#34656d ;
+}
+#refreshHeading {
+    font-size: 5rem;
+    text-align: center;
+    color: #c6ffc1;
+    font-family: 'Dancing Script', cursive;
+  
+}
+#refeshLink {
+    text-decoration: none;
+    color: #c6ffc1;
+    font-family: 'Dancing Script', cursive;
+    font-weight:bolder;
+}
+.mainBoard {
+  
+    height: 300px;
+    width: 60%;
+   position: relative;
+   left: 20%;
+   top: 30px;
+}
+
+/* .player1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+}
+.player2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    display: inline-block;
+    
+} */
+.playerTages {
+   
+    height: 50px;
+    width: 50%;
+    position: relative;
+    left: 30%;
+}
+#p1{
+    font-family:cursive;
+    font-size: 2.2rem;
+    display: inline;
+    position: relative;
+    left: 40px;
+    color: #c6ffc1;
+}
+#p2{
+    font-family:cursive;
+    font-size: 2.2rem;
+    display: inline;
+    position: relative;
+    left: 150px;
+    color: #c6ffc1;
+}
+#p1DiceImg {
+    height: 160px;
+    width: auto;
+    margin-left: 120px;
+}
+#p2DiceImg {
+    height: 160px;
+    width: auto;
+    margin-left: 90px;
+}
+.footerDice {
+    height: 10px;
+    width: auto;
+}
+.footer {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+    left: 34%;
+    top: 20px;
+    font-size: 20px;
+}
